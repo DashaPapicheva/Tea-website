@@ -1,0 +1,219 @@
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family:'Ubuntu', sans-serif;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: green;
+}
+
+h3 {
+    text-align: center;
+    padding: 5vh;
+    margin: 0;
+    font-size: 2rem;
+}
+
+hr {
+    margin: 0 auto;
+    width: 40%;
+    background-color: green;
+    height: 2px;
+    border: 0;
+}
+
+.general {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 209, 209);
+}
+
+/* Header */
+
+header {
+    background-color:  rgb(54, 87, 62, 0.6);
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    min-height: 80px;
+    padding: 10px 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+header img {
+    width: 15vh;
+    min-width: 50px;
+    opacity: 0.6;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header nav ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+header nav ul li a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+header a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* Beginning */
+ 
+#beginning {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    background-image: url(photos/start-photo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+
+#firstPar h1{
+    font-size: 4rem;
+    text-shadow: 2px 2px black;
+    margin-bottom: 40px;
+
+    }
+
+#firstPar h2{
+    font-size: 3rem;
+    text-shadow: 2px 2px black;
+    margin-bottom: 80px;
+}
+
+#firstPar a {
+    font-size: inherit;
+    text-decoration: none;
+    background-color: black;
+    color:  rgb(167, 236, 167);
+    padding: 25px;
+    border:  rgb(167, 236, 167) solid 1px;
+    border-radius: 10px; 
+}
+
+#firstPar a:hover {
+    background-color: rgb(167, 236, 167);
+    color: black;
+    border:  black solid 1px;
+    transition-duration: 0.5s;
+}
+
+@media(max-width: 800px) {
+    #beginning {
+        min-height: 600px;
+    }
+    #firstPar h1{
+        font-size: 3rem;
+        padding: 0 25px;
+        margin-bottom: 50px;
+    }
+    
+    #firstPar h2{
+        font-size: 2rem;
+        margin-bottom: 120px;
+    }
+}
+
+/* About tea */
+
+#bodyAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#photoTeapot {
+    margin: 0;
+    padding: 0 5vh;    
+}
+#photoTeapot img {
+    height: 40vh;
+    min-height: 100px;
+}
+#textAbout {
+    width: 80%;
+    padding-right: 7vh;
+    line-height: 1.5rem;
+}
+@media (max-width: 800px) {
+    #bodyAbout {
+        flex-direction: column;
+    }
+    #textAbout {
+        padding: 5vh;
+        font-size: 0.9rem;
+    }
+}
+
+/* Gallery */
+
+
+
+/* 2 types of tea */
+
+
+
+/* Great tea lovers */
+
+
+
+/* Tea countries */
+
+
+
+/* Tea lovers, unite! */
+
+/* Footer */
+
+footer {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, black, rgb(54, 87, 62) 100%);
+
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+footer ul li a {
+    color: white;
+    font-size: 2rem;
+    margin: 20px;
+    cursor: pointer; 
+}
+footer p {
+    text-transform: uppercase;
+    color: inherit;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
