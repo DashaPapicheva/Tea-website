@@ -180,23 +180,27 @@ header a:hover {
     margin: 0;
 }
 #photos {
-    width: 100%;
-    margin: 0;
+    margin: 3vh 0;
     padding: 0 5vh;
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 
 }
 .big a img {
-    width: 50%;
-    min-width: 100px;
+    width: 35vw;
+    min-width: 250px;
 }
 .little a img {
-    width: 40%;
-    min-width: 100px;
+    width: 30vw;
+    min-width: 250px;
+}
+.little a, .big a  {
+    color: green;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* 2 types of tea */
