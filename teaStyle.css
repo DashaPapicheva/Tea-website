@@ -144,6 +144,7 @@ header a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: 30px;
     margin-bottom: 5vh;
 }
 #photoTeapot {
@@ -152,16 +153,17 @@ header a:hover {
 }
 #photoTeapot img {
     height: 40vh;
-    min-height: 100px;
+    min-height: 200px;
 }
 #textAbout {
     width: 80%;
-    padding-right: 7vh;
+    padding: 0 7vh;
     line-height: 1.5rem;
 }
 @media (max-width: 800px) {
     #bodyAbout {
         flex-direction: column;
+        margin-left: 0;
         margin-bottom: 0;
     }
     #textAbout {
