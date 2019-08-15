@@ -14,7 +14,7 @@ body {
 
 h3 {
     text-align: center;
-    padding: 5vh;
+    padding: 6vh 5vh 5vh;
     margin: 0;
     font-size: 2rem;
 }
@@ -144,6 +144,7 @@ header a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5vh;
 }
 #photoTeapot {
     margin: 0;
@@ -161,6 +162,7 @@ header a:hover {
 @media (max-width: 800px) {
     #bodyAbout {
         flex-direction: column;
+        margin-bottom: 0;
     }
     #textAbout {
         padding: 5vh;
@@ -170,10 +172,42 @@ header a:hover {
 
 /* Gallery */
 
+#aboutGallery {
+    width: 70%;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0 15%;
+    margin: 0;
+}
+#photos {
+    width: 100%;
+    margin: 0;
+    padding: 0 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
 
+}
+.big a img {
+    width: 50%;
+    min-width: 100px;
+}
+.little a img {
+    width: 40%;
+    min-width: 100px;
+}
 
 /* 2 types of tea */
 
+#aboutTypes {
+    width: 70%;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0 15%;
+    margin: 0;
+}
 
 
 /* Great tea lovers */
@@ -182,7 +216,13 @@ header a:hover {
 
 /* Tea countries */
 
-
+#aboutContries {
+    width: 70%;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0 15%;
+    margin: 0;
+}
 
 /* Tea lovers, unite! */
 
