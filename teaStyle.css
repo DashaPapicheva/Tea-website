@@ -222,7 +222,6 @@ header a:hover {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-
 }
 #aboutTwoTypes .col {
     padding: 0 20px;
@@ -232,7 +231,6 @@ header a:hover {
     font-size: 1.2rem;
     padding: 10px 0;
 }
-
 #aboutTwoTypes .col img {
     width: 10vw;
     min-width: 100px;
@@ -245,8 +243,47 @@ header a:hover {
     list-style-type: none;
 }
 
-
 /* Great tea lovers */
+
+#teaLovers {
+    width: 90%;
+    margin: 0 0 20px;
+}
+#teaLovers .lover {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+#teaLovers .lover img {
+    width: 10vw;
+    min-width: 100px;
+    border-radius: 50%;
+    padding: 20px 30px;
+}
+#teaLovers p{
+    margin: 0;
+}
+#teaLovers .lover .descr {
+    width: 50%;
+    line-height: 1.5rem;
+    padding: 20px 20px;
+}
+#teaLovers .lover .descr span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#teaLovers .lover .century {
+    width: 6vw;
+    height: 6vw;
+    min-width: 70px;
+    min-height: 70px;
+    border: 3px solid rgb(115, 153, 115);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center
+}
 
 
 
