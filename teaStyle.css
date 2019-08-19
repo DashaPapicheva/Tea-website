@@ -214,6 +214,36 @@ header a:hover {
     padding: 0 15%;
     margin: 0;
 }
+#aboutTwoTypes {
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+#aboutTwoTypes .col {
+    padding: 0 20px;
+}
+#aboutTwoTypes .col .Dec {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+#aboutTwoTypes .col img {
+    width: 10vw;
+    min-width: 100px;
+}
+#aboutTwoTypes .col ul {
+    padding: 0;
+    line-height: 1.2rem;
+}
+#aboutTwoTypes .col ul li {
+    list-style-type: none;
+}
 
 
 /* Great tea lovers */
