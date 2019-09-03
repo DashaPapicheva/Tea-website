@@ -1,4 +1,4 @@
 # Tea-website
 Training repository <br>
-Look it here
+Watch it here
 https://tea-site.herokuapp.com/
